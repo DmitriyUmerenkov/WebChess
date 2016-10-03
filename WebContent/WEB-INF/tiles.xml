@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	<definition name="home" template="/WEB-INF/layouts/base.jsp">
+		<put-attribute name="title" value="Web Chess application"></put-attribute>
+		<put-attribute name="board" value="/tiles/board.jsp"></put-attribute>
+		<put-attribute name="header" value="/tiles/header.jsp"></put-attribute>
+		<put-attribute name="loginHeader" value="/tiles/loginHeader.jsp"></put-attribute>
+		<put-attribute name="menu" value="/tiles/menu.jsp"></put-attribute>
+		<put-attribute name="leftPanel" value=""></put-attribute>
+		<put-attribute name="bottom" value="/tiles/bottom.jsp"></put-attribute>
+	</definition>
+
+</tiles-definitions>
