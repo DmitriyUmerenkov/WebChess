@@ -9,7 +9,16 @@
 		<put-attribute name="board" value="/tiles/board.jsp"></put-attribute>
 		<put-attribute name="header" value="/tiles/header.jsp"></put-attribute>
 		<put-attribute name="loginHeader" value="/tiles/loginHeader.jsp"></put-attribute>
-		<put-attribute name="menu" value="/tiles/menu.jsp"></put-attribute>
+		<put-attribute name="menu" value="/tiles/mainMenu.jsp"></put-attribute>
+		<put-attribute name="leftPanel" value=""></put-attribute>
+		<put-attribute name="bottom" value="/tiles/bottom.jsp"></put-attribute>
+	</definition>
+<definition name="newGame" template="/WEB-INF/layouts/base.jsp">
+		<put-attribute name="title" value="Web Chess application"></put-attribute>
+		<put-attribute name="board" value="/tiles/savedGameList.jsp"></put-attribute>
+		<put-attribute name="header" value="/tiles/header.jsp"></put-attribute>
+		<put-attribute name="loginHeader" value="/tiles/loginHeader.jsp"></put-attribute>
+		<put-attribute name="menu" value="/tiles/newGameMenu.jsp"></put-attribute>
 		<put-attribute name="leftPanel" value=""></put-attribute>
 		<put-attribute name="bottom" value="/tiles/bottom.jsp"></put-attribute>
 	</definition>

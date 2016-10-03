@@ -16,5 +16,17 @@ public class HomeController {
 
 	}
 	
+	
+	@RequestMapping(value = "/newGame", produces = "text/html;charset=UTF-8")
+	public String showNewGame() {		
+		return "newGame";
+
+	}
+	
+	@RequestMapping(value = "/saveGame", produces = "text/html;charset=UTF-8")
+	public String showSaveGame() {		
+		return "saveGame";
+
+	}
 
 }
